@@ -31,8 +31,12 @@ def get_query(num_repos, cursor):
                   owner {{
                     login
                   }}
+                  createdAt
                   stargazerCount
                   url
+                  releases {{
+                    totalCount
+                  }}
                 }}
               }}
             }}
