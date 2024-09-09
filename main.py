@@ -7,12 +7,12 @@ def print_names(popular_repos):
         print(repo["node"]["name"])
 
 if __name__ == "__main__":
-    num_repos = 1
+    num_repos = 1000
     try:
         popular_repos = get_popular_java_repos(num_repos)
         collect_repo_info(popular_repos)
         print_names(popular_repos)
-        clone_repos(popular_repos)
+        get_metrics(popular_repos)        
     except Exception as e:
         print(e)
     exit(0)

@@ -46,7 +46,7 @@ def get_query(num_repos, cursor):
 
 def get_popular_java_repos(num_repos):
     repos = []
-    max_per_page = 25
+    max_per_page = num_repos if num_repos < 25 else 25
     num_pages = math.ceil(num_repos / max_per_page)
     page = 1
     cursor = ""
