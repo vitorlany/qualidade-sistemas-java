@@ -11,8 +11,7 @@ if __name__ == "__main__":
     try:
         popular_repos = get_popular_java_repos(num_repos)
         collect_repo_info(popular_repos)
-        print_names(popular_repos)
-        get_metrics(popular_repos)        
+        get_metrics(popular_repos)  
     except Exception as e:
         print(e)
     exit(0)
