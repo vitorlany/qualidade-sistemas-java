@@ -1,0 +1,6 @@
+file,class,method,variable,usage
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/Android-Tips/Utils/URLChecker/NetUtils.java,ItemThread,"ItemThread/2[java.lang.String,ICallback]",callback,3
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/Android-Tips/Utils/URLChecker/NetUtils.java,ItemThread,"ItemThread/2[java.lang.String,ICallback]",url,3
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/Android-Tips/Utils/URLChecker/NetUtils.java,ItemThread,run/0,callback,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/Android-Tips/Utils/URLChecker/NetUtils.java,ItemThread,run/0,url,4
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/Android-Tips/Utils/URLChecker/Main.java,Main,main/1[java.lang.String[]],saveAllMatterUrls,1

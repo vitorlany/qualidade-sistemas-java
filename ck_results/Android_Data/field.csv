@@ -1,0 +1,14 @@
+file,class,method,variable,usage
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/Android_Data/fake_land/LogUtils.java,com.chengxinet.bobo.utils.LogUtils,"d/2[java.lang.String,java.lang.String]",DEBUG,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/Android_Data/fake_land/LogUtils.java,com.chengxinet.bobo.utils.LogUtils,"logw/2[java.lang.String,java.lang.String]",DEBUG,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/Android_Data/fake_land/LogUtils.java,com.chengxinet.bobo.utils.LogUtils,"e/3[java.lang.String,java.lang.String,java.lang.Exception]",DEBUG,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/Android_Data/fake_land/LogUtils.java,com.chengxinet.bobo.utils.LogUtils,"loge/2[java.lang.String,java.lang.String]",DEBUG,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/Android_Data/fake_land/LogUtils.java,com.chengxinet.bobo.utils.LogUtils,"logi/2[java.lang.String,java.lang.String]",DEBUG,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/Android_Data/fake_land/LogUtils.java,com.chengxinet.bobo.utils.LogUtils,"w/2[java.lang.String,java.lang.String]",DEBUG,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/Android_Data/fake_land/LogUtils.java,com.chengxinet.bobo.utils.LogUtils,"i/2[java.lang.String,java.lang.String]",DEBUG,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/Android_Data/fake_land/LogUtils.java,com.chengxinet.bobo.utils.LogUtils,"e/2[java.lang.String,java.lang.String]",DEBUG,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/Android_Data/fake_land/LogUtils.java,com.chengxinet.bobo.utils.LogUtils,"logv/2[java.lang.String,java.lang.String]",DEBUG,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/Android_Data/fake_land/LogUtils.java,com.chengxinet.bobo.utils.LogUtils,"logd/2[java.lang.String,java.lang.String]",DEBUG,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/Android_Data/fake_land/LogUtils.java,com.chengxinet.bobo.utils.LogUtils,"logJ/2[java.lang.String,java.lang.String]",DEBUG,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/Android_Data/fake_land/LogUtils.java,com.chengxinet.bobo.utils.LogUtils,"loge/3[java.lang.String,java.lang.String,java.lang.Exception]",DEBUG,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/Android_Data/fake_land/LogUtils.java,com.chengxinet.bobo.utils.LogUtils,"v/2[java.lang.String,java.lang.String]",DEBUG,1

@@ -1,0 +1,273 @@
+file,class,method,variable,usage
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Set.java,com.activeandroid.query.Set,"Set/2[com.activeandroid.query.Update,java.lang.String]",mWhereArguments,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Set.java,com.activeandroid.query.Set,"Set/2[com.activeandroid.query.Update,java.lang.String]",mSetArguments,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Set.java,com.activeandroid.query.Set,"Set/2[com.activeandroid.query.Update,java.lang.String]",mSet,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Set.java,com.activeandroid.query.Set,"Set/2[com.activeandroid.query.Update,java.lang.String]",mUpdate,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Set.java,com.activeandroid.query.Set,"where/2[java.lang.String,java.lang.Object[]]",mWhereArguments,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Set.java,com.activeandroid.query.Set,"where/2[java.lang.String,java.lang.Object[]]",mWhere,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Set.java,com.activeandroid.query.Set,"Set/3[com.activeandroid.query.Update,java.lang.String,java.lang.Object[]]",mWhereArguments,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Set.java,com.activeandroid.query.Set,"Set/3[com.activeandroid.query.Update,java.lang.String,java.lang.Object[]]",mSetArguments,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Set.java,com.activeandroid.query.Set,"Set/3[com.activeandroid.query.Update,java.lang.String,java.lang.Object[]]",mSet,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Set.java,com.activeandroid.query.Set,"Set/3[com.activeandroid.query.Update,java.lang.String,java.lang.Object[]]",mUpdate,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Set.java,com.activeandroid.query.Set,getArguments/0,mWhereArguments,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Set.java,com.activeandroid.query.Set,getArguments/0,mSetArguments,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Set.java,com.activeandroid.query.Set,toSql/0,mWhere,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Set.java,com.activeandroid.query.Set,toSql/0,mSet,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Set.java,com.activeandroid.query.Set,toSql/0,mUpdate,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Set.java,com.activeandroid.query.Set,where/1[java.lang.String],mWhereArguments,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Set.java,com.activeandroid.query.Set,where/1[java.lang.String],mWhere,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Select.java,com.activeandroid.query.Select,Select/1[java.lang.String[]],mColumns,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Select.java,com.activeandroid.query.Select,distinct/0,mAll,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Select.java,com.activeandroid.query.Select,distinct/0,mDistinct,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Select.java,com.activeandroid.query.Select,all/0,mAll,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Select.java,com.activeandroid.query.Select,all/0,mDistinct,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Select.java,com.activeandroid.query.Select,Select/1[com.activeandroid.query.Select.Column[]],mColumns,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Select.java,com.activeandroid.query.Select,toSql/0,mColumns,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Select.java,com.activeandroid.query.Select,toSql/0,mAll,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Select.java,com.activeandroid.query.Select,toSql/0,mDistinct,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,create/0,mModelClasses,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,create/0,mCacheSize,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,create/0,AA_MODELS,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,create/0,mDatabaseName,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,create/0,AA_SERIALIZERS,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,create/0,mSqlParser,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,create/0,mContext,3
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,create/0,mDatabaseVersion,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,create/0,mTypeSerializers,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,addTypeSerializer/1[java.lang.Class<? extends com.activeandroid.serializer.TypeSerializer>],mTypeSerializers,3
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,addModelClasses/1[java.lang.Class<? extends com.activeandroid.Model>[]],mModelClasses,3
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,addModelClass/1[java.lang.Class<? extends com.activeandroid.Model>],mModelClasses,3
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,setModelClasses/1[java.lang.Class<? extends com.activeandroid.Model>[]],mModelClasses,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,setDatabaseVersion/1[int],mDatabaseVersion,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,setSqlParser/1[java.lang.String],mSqlParser,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,setDatabaseName/1[java.lang.String],mDatabaseName,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,getMetaDataDatabaseVersionOrDefault/0,AA_DB_VERSION,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,getMetaDataDatabaseVersionOrDefault/0,mContext,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,addTypeSerializers/1[java.lang.Class<? extends com.activeandroid.serializer.TypeSerializer>[]],mTypeSerializers,3
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,loadSerializerList/1[java.lang.String[]],mContext,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,setTypeSerializers/1[java.lang.Class<? extends com.activeandroid.serializer.TypeSerializer>[]],mTypeSerializers,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,loadModelList/1[java.lang.String[]],mContext,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,getMetaDataSqlParserOrDefault/0,AA_SQL_PARSER,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,getMetaDataSqlParserOrDefault/0,DEFAULT_SQL_PARSER,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,getMetaDataSqlParserOrDefault/0,mContext,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,Builder/1[android.content.Context],DEFAULT_CACHE_SIZE,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,Builder/1[android.content.Context],mCacheSize,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,Builder/1[android.content.Context],mContext,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,setCacheSize/1[int],mCacheSize,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,getMetaDataDatabaseNameOrDefault/0,AA_DB_NAME,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,getMetaDataDatabaseNameOrDefault/0,DEFAULT_DB_NAME,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration$Builder,getMetaDataDatabaseNameOrDefault/0,mContext,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/content/ContentProvider.java,com.activeandroid.content.ContentProvider,getType/1[android.net.Uri],sAuthority,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/content/ContentProvider.java,com.activeandroid.content.ContentProvider,getType/1[android.net.Uri],sMimeTypeCache,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/content/ContentProvider.java,com.activeandroid.content.ContentProvider,getType/1[android.net.Uri],URI_MATCHER,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/content/ContentProvider.java,com.activeandroid.content.ContentProvider,getModelType/1[android.net.Uri],TYPE_CODES,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/content/ContentProvider.java,com.activeandroid.content.ContentProvider,getModelType/1[android.net.Uri],URI_MATCHER,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/content/ContentProvider.java,com.activeandroid.content.ContentProvider,"createUri/2[java.lang.Class<? extends com.activeandroid.Model>,java.lang.Long]",sAuthority,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/content/ContentProvider.java,com.activeandroid.content.ContentProvider,onCreate/0,TYPE_CODES,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/content/ContentProvider.java,com.activeandroid.content.ContentProvider,onCreate/0,sAuthority,3
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/content/ContentProvider.java,com.activeandroid.content.ContentProvider,onCreate/0,URI_MATCHER,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/query/UpdateTest.java,com.activeandroid.test.query.UpdateTest,testUpdateSet/0,UPDATE_PREFIX,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/query/UpdateTest.java,com.activeandroid.test.query.UpdateTest,testUpdateWhereWithArguments/0,UPDATE_PREFIX,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/query/UpdateTest.java,com.activeandroid.test.query.UpdateTest,testUpdate/0,UPDATE_PREFIX,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/query/UpdateTest.java,com.activeandroid.test.query.UpdateTest,testUpdateWhereNoArguments/0,UPDATE_PREFIX,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/DatabaseHelper.java,com.activeandroid.DatabaseHelper,"executeSqlScript/2[android.database.sqlite.SQLiteDatabase,java.lang.String]",MIGRATION_PATH,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/DatabaseHelper.java,com.activeandroid.DatabaseHelper,"executeSqlScript/2[android.database.sqlite.SQLiteDatabase,java.lang.String]",mSqlParser,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/DatabaseHelper.java,com.activeandroid.DatabaseHelper,DatabaseHelper/1[com.activeandroid.Configuration],mSqlParser,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/DatabaseHelper.java,com.activeandroid.DatabaseHelper,"executeMigrations/3[android.database.sqlite.SQLiteDatabase,int,int]",MIGRATION_PATH,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Model.java,com.activeandroid.Model,hashCode/0,mTableInfo,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Model.java,com.activeandroid.Model,hashCode/0,mId,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Model.java,com.activeandroid.Model,hashCode/0,HASH_PRIME,3
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Model.java,com.activeandroid.Model,loadFromCursor/1[android.database.Cursor],mTableInfo,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Model.java,com.activeandroid.Model,loadFromCursor/1[android.database.Cursor],idName,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Model.java,com.activeandroid.Model,loadFromCursor/1[android.database.Cursor],mId,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Model.java,com.activeandroid.Model,delete/0,mTableInfo,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Model.java,com.activeandroid.Model,delete/0,idName,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Model.java,com.activeandroid.Model,delete/0,mId,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Model.java,com.activeandroid.Model,equals/1[java.lang.Object],mTableInfo,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Model.java,com.activeandroid.Model,equals/1[java.lang.Object],mId,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Model.java,com.activeandroid.Model,save/0,mTableInfo,5
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Model.java,com.activeandroid.Model,save/0,idName,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Model.java,com.activeandroid.Model,save/0,mId,5
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Model.java,com.activeandroid.Model,getId/0,mId,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Model.java,com.activeandroid.Model,Model/0,mTableInfo,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Model.java,com.activeandroid.Model,Model/0,idName,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Model.java,com.activeandroid.Model,toString/0,mTableInfo,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration,getContext/0,mContext,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration,isValid/0,mModelClasses,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration,getSqlParser/0,mSqlParser,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration,getModelClasses/0,mModelClasses,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration,Configuration/1[android.content.Context],mContext,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration,getCacheSize/0,mCacheSize,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration,getDatabaseVersion/0,mDatabaseVersion,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration,getDatabaseName/0,mDatabaseName,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Configuration.java,com.activeandroid.Configuration,getTypeSerializers/0,mTypeSerializers,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Tokenizer.java,com.activeandroid.util.Tokenizer,skip/1[java.lang.String],mCurrent,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Tokenizer.java,com.activeandroid.util.Tokenizer,skip/1[java.lang.String],mStream,3
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Tokenizer.java,com.activeandroid.util.Tokenizer,Tokenizer/1[com.activeandroid.util.InputStream],mStream,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Tokenizer.java,com.activeandroid.util.Tokenizer,hasNext/0,mIsNext,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Tokenizer.java,com.activeandroid.util.Tokenizer,hasNext/0,mCurrent,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Tokenizer.java,com.activeandroid.util.Tokenizer,hasNext/0,mStream,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Tokenizer.java,com.activeandroid.util.Tokenizer,next/0,mIsNext,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Tokenizer.java,com.activeandroid.util.Tokenizer,next/0,mCurrent,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Tokenizer.java,com.activeandroid.util.Tokenizer,next/0,mStream,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/parser/ParserTest.java,com.activeandroid.test.parser.ParserTest,testTwoStatements/0,sql2,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/parser/ParserTest.java,com.activeandroid.test.parser.ParserTest,testTwoStatements/0,sql1,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/parser/ParserTest.java,com.activeandroid.test.parser.ParserTest,testLineCommentWithString/0,sql1,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/parser/ParserTest.java,com.activeandroid.test.parser.ParserTest,testInvalidBlockComment/0,invalid,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/parser/ParserTest.java,com.activeandroid.test.parser.ParserTest,testBlockComment/0,sql1,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/parser/ParserTest.java,com.activeandroid.test.parser.ParserTest,testBlockCommentWithString/0,sql1,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/parser/ParserTest.java,com.activeandroid.test.parser.ParserTest,testBlockCommentWithSemicolon/0,sql1,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/parser/ParserTest.java,com.activeandroid.test.parser.ParserTest,testBlockAndLineComment/0,sql1,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/parser/ParserTest.java,com.activeandroid.test.parser.ParserTest,testWhitespace/0,sql1,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/parser/ParserTest.java,com.activeandroid.test.parser.ParserTest,testLineAndBlockEndComment/0,sql1,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/parser/ParserTest.java,com.activeandroid.test.parser.ParserTest,testLineComment/0,sql1,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/parser/ParserTest.java,com.activeandroid.test.parser.ParserTest,testLineCommentWithSemicolon/0,sql1,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Update.java,com.activeandroid.query.Update,Update/1[java.lang.Class<? extends com.activeandroid.Model>],mType,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Update.java,com.activeandroid.query.Update,getType/0,mType,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Update.java,com.activeandroid.query.Update,toSql/0,mType,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/SQLiteUtils.java,com.activeandroid.util.SQLiteUtils,"createColumnDefinition/2[com.activeandroid.TableInfo,com.activeandroid.util.Field]",FOREIGN_KEYS_SUPPORTED,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/SQLiteUtils.java,com.activeandroid.util.SQLiteUtils,"createColumnDefinition/2[com.activeandroid.TableInfo,com.activeandroid.util.Field]",TYPE_MAP,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/SQLiteUtils.java,com.activeandroid.util.SQLiteUtils,"createUniqueColumnDefinition/2[com.activeandroid.TableInfo,com.activeandroid.util.Field]",sOnUniqueConflictsMap,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/SQLiteUtils.java,com.activeandroid.util.SQLiteUtils,"createUniqueColumnDefinition/2[com.activeandroid.TableInfo,com.activeandroid.util.Field]",sUniqueGroupMap,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/SQLiteUtils.java,com.activeandroid.util.SQLiteUtils,createUniqueDefinition/1[com.activeandroid.TableInfo],sOnUniqueConflictsMap,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/SQLiteUtils.java,com.activeandroid.util.SQLiteUtils,createUniqueDefinition/1[com.activeandroid.TableInfo],sUniqueGroupMap,4
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/SQLiteUtils.java,com.activeandroid.util.SQLiteUtils,"createIndexColumnDefinition/2[com.activeandroid.TableInfo,com.activeandroid.util.Field]",sIndexGroupMap,3
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/SQLiteUtils.java,com.activeandroid.util.SQLiteUtils,createIndexDefinition/1[com.activeandroid.TableInfo],sIndexGroupMap,3
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/SqlParser.java,com.activeandroid.util.SqlParser,parse/1[com.activeandroid.util.InputStream],STATE_COMMENT,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/SqlParser.java,com.activeandroid.util.SqlParser,parse/1[com.activeandroid.util.InputStream],STATE_STRING,3
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/SqlParser.java,com.activeandroid.util.SqlParser,parse/1[com.activeandroid.util.InputStream],STATE_COMMENT_BLOCK,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/SqlParser.java,com.activeandroid.util.SqlParser,parse/1[com.activeandroid.util.InputStream],STATE_NONE,10
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,outerJoin/1[java.lang.Class<? extends com.activeandroid.Model>],mJoins,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,join/1[java.lang.Class<? extends com.activeandroid.Model>],mJoins,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,addGroupBy/1[java.lang.StringBuilder],mGroupBy,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,innerJoin/1[java.lang.Class<? extends com.activeandroid.Model>],mJoins,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,offset/1[java.lang.String],mOffset,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,orderBy/1[java.lang.String],mOrderBy,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,executeSingle/0,mQueryBase,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,executeSingle/0,mType,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,leftJoin/1[java.lang.Class<? extends com.activeandroid.Model>],mJoins,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,limit/1[java.lang.String],mLimit,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,addOrderBy/1[java.lang.StringBuilder],mOrderBy,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,addOffset/1[java.lang.StringBuilder],mOffset,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,getArguments/0,mArguments,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,addLimit/1[java.lang.StringBuilder],mLimit,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,having/1[java.lang.String],mHaving,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,addHaving/1[java.lang.StringBuilder],mHaving,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,toSql/0,mQueryBase,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,crossJoin/1[java.lang.Class<? extends com.activeandroid.Model>],mJoins,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,"From/2[java.lang.Class<? extends com.activeandroid.Model>,com.activeandroid.query.Sqlable]",mQueryBase,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,"From/2[java.lang.Class<? extends com.activeandroid.Model>,com.activeandroid.query.Sqlable]",mArguments,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,"From/2[java.lang.Class<? extends com.activeandroid.Model>,com.activeandroid.query.Sqlable]",mJoins,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,"From/2[java.lang.Class<? extends com.activeandroid.Model>,com.activeandroid.query.Sqlable]",mType,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,addJoins/1[java.lang.StringBuilder],mJoins,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,as/1[java.lang.String],mAlias,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,where/1[java.lang.String],mWhere,3
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,groupBy/1[java.lang.String],mGroupBy,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,addFrom/1[java.lang.StringBuilder],mAlias,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,addFrom/1[java.lang.StringBuilder],mType,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,addWhere/1[java.lang.StringBuilder],mWhere,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,execute/0,mQueryBase,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,execute/0,mType,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,or/1[java.lang.String],mWhere,3
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/From.java,com.activeandroid.query.From,addArguments/1[java.lang.Object[]],mArguments,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Join.java,com.activeandroid.query.Join,as/1[java.lang.String],mAlias,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Join.java,com.activeandroid.query.Join,on/1[java.lang.String],mFrom,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Join.java,com.activeandroid.query.Join,on/1[java.lang.String],mOn,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Join.java,com.activeandroid.query.Join,toSql/0,mJoinType,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Join.java,com.activeandroid.query.Join,toSql/0,mUsing,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Join.java,com.activeandroid.query.Join,toSql/0,mAlias,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Join.java,com.activeandroid.query.Join,toSql/0,mOn,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Join.java,com.activeandroid.query.Join,toSql/0,mType,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Join.java,com.activeandroid.query.Join,"Join/3[com.activeandroid.query.From,java.lang.Class<? extends com.activeandroid.Model>,com.activeandroid.query.Join.JoinType]",mJoinType,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Join.java,com.activeandroid.query.Join,"Join/3[com.activeandroid.query.From,java.lang.Class<? extends com.activeandroid.Model>,com.activeandroid.query.Join.JoinType]",mFrom,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Join.java,com.activeandroid.query.Join,"Join/3[com.activeandroid.query.From,java.lang.Class<? extends com.activeandroid.Model>,com.activeandroid.query.Join.JoinType]",mType,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Join.java,com.activeandroid.query.Join,using/1[java.lang.String[]],mUsing,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Join.java,com.activeandroid.query.Join,using/1[java.lang.String[]],mFrom,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Join.java,com.activeandroid.query.Join,"on/2[java.lang.String,java.lang.Object[]]",mFrom,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Join.java,com.activeandroid.query.Join,"on/2[java.lang.String,java.lang.Object[]]",mOn,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,i/1[java.lang.String],sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,i/1[java.lang.String],sTag,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,w/1[java.lang.String],sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,w/1[java.lang.String],sTag,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,"d/2[java.lang.String,java.lang.String]",sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,"d/2[java.lang.String,java.lang.Throwable]",sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,"d/2[java.lang.String,java.lang.Throwable]",sTag,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,"w/2[java.lang.String,java.lang.Throwable]",sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,"w/2[java.lang.String,java.lang.Throwable]",sTag,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,"i/2[java.lang.String,java.lang.Throwable]",sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,"i/2[java.lang.String,java.lang.Throwable]",sTag,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,isEnabled/0,sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,"e/2[java.lang.String,java.lang.Throwable]",sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,"e/2[java.lang.String,java.lang.Throwable]",sTag,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,v/1[java.lang.String],sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,v/1[java.lang.String],sTag,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,"v/2[java.lang.String,java.lang.Throwable]",sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,"v/2[java.lang.String,java.lang.Throwable]",sTag,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,e/1[java.lang.String],sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,e/1[java.lang.String],sTag,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,isLoggingEnabled/0,sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,"v/2[java.lang.String,java.lang.String]",sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,"i/2[java.lang.String,java.lang.String]",sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,"e/3[java.lang.String,java.lang.String,java.lang.Throwable]",sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,d/1[java.lang.String],sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,d/1[java.lang.String],sTag,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,"i/3[java.lang.String,java.lang.String,java.lang.Throwable]",sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,"t/2[java.lang.String,java.lang.Object[]]",sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,"w/3[java.lang.String,java.lang.String,java.lang.Throwable]",sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,"v/3[java.lang.String,java.lang.String,java.lang.Throwable]",sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,"e/2[java.lang.String,java.lang.String]",sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,"w/2[java.lang.String,java.lang.String]",sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,setEnabled/1[boolean],sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/util/Log.java,com.activeandroid.util.Log,"d/3[java.lang.String,java.lang.String,java.lang.Throwable]",sEnabled,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Cache.java,com.activeandroid.Cache,initialize/1[com.activeandroid.Configuration],sDatabaseHelper,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Cache.java,com.activeandroid.Cache,initialize/1[com.activeandroid.Configuration],sIsInitialized,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Cache.java,com.activeandroid.Cache,initialize/1[com.activeandroid.Configuration],sModelInfo,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Cache.java,com.activeandroid.Cache,initialize/1[com.activeandroid.Configuration],sEntities,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Cache.java,com.activeandroid.Cache,initialize/1[com.activeandroid.Configuration],sContext,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Cache.java,com.activeandroid.Cache,openDatabase/0,sDatabaseHelper,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Cache.java,com.activeandroid.Cache,getParserForType/1[java.lang.Class<?>],sModelInfo,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Cache.java,com.activeandroid.Cache,getTableName/1[java.lang.Class<? extends com.activeandroid.Model>],sModelInfo,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Cache.java,com.activeandroid.Cache,getContext/0,sContext,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Cache.java,com.activeandroid.Cache,isInitialized/0,sIsInitialized,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Cache.java,com.activeandroid.Cache,"getEntity/2[java.lang.Class<? extends com.activeandroid.Model>,long]",sEntities,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Cache.java,com.activeandroid.Cache,closeDatabase/0,sDatabaseHelper,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Cache.java,com.activeandroid.Cache,dispose/0,sDatabaseHelper,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Cache.java,com.activeandroid.Cache,dispose/0,sIsInitialized,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Cache.java,com.activeandroid.Cache,dispose/0,sModelInfo,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Cache.java,com.activeandroid.Cache,dispose/0,sEntities,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Cache.java,com.activeandroid.Cache,addEntity/1[com.activeandroid.Model],sEntities,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Cache.java,com.activeandroid.Cache,getTableInfo/1[java.lang.Class<? extends com.activeandroid.Model>],sModelInfo,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Cache.java,com.activeandroid.Cache,getTableInfos/0,sModelInfo,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Cache.java,com.activeandroid.Cache,removeEntity/1[com.activeandroid.Model],sEntities,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/Cache.java,com.activeandroid.Cache,clear/0,sEntities,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/TableInfo.java,com.activeandroid.TableInfo,getFields/0,mColumnNames,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/TableInfo.java,com.activeandroid.TableInfo,TableInfo/1[java.lang.Class<? extends com.activeandroid.Model>],mTableName,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/TableInfo.java,com.activeandroid.TableInfo,TableInfo/1[java.lang.Class<? extends com.activeandroid.Model>],mColumnNames,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/TableInfo.java,com.activeandroid.TableInfo,TableInfo/1[java.lang.Class<? extends com.activeandroid.Model>],mIdName,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/TableInfo.java,com.activeandroid.TableInfo,TableInfo/1[java.lang.Class<? extends com.activeandroid.Model>],mType,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/TableInfo.java,com.activeandroid.TableInfo,getType/0,mType,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/TableInfo.java,com.activeandroid.TableInfo,getColumnName/1[com.activeandroid.Field],mColumnNames,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/TableInfo.java,com.activeandroid.TableInfo,getIdName/0,mIdName,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/TableInfo.java,com.activeandroid.TableInfo,getTableName/0,mTableName,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/ModelInfo.java,com.activeandroid.ModelInfo,getTypeSerializer/1[java.lang.Class<?>],mTypeSerializers,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/ModelInfo.java,com.activeandroid.ModelInfo,"scanForModelClasses/3[com.activeandroid.File,java.lang.String,java.lang.ClassLoader]",mTableInfos,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/ModelInfo.java,com.activeandroid.ModelInfo,"scanForModelClasses/3[com.activeandroid.File,java.lang.String,java.lang.ClassLoader]",mTypeSerializers,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/ModelInfo.java,com.activeandroid.ModelInfo,getTableInfos/0,mTableInfos,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/ModelInfo.java,com.activeandroid.ModelInfo,getTableInfo/1[java.lang.Class<? extends com.activeandroid.Model>],mTableInfos,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/ModelInfo.java,com.activeandroid.ModelInfo,loadModelFromMetaData/1[com.activeandroid.Configuration],mTableInfos,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/ModelInfo.java,com.activeandroid.ModelInfo,loadModelFromMetaData/1[com.activeandroid.Configuration],mTypeSerializers,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/query/FromTest.java,com.activeandroid.test.query.FromTest,testJoins/0,SELECT_PREFIX,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/query/FromTest.java,com.activeandroid.test.query.FromTest,testWhereWithArguments/0,SELECT_PREFIX,3
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/query/FromTest.java,com.activeandroid.test.query.FromTest,testGroupByHaving/0,SELECT_PREFIX,3
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/query/FromTest.java,com.activeandroid.test.query.FromTest,testOrderBy/0,SELECT_PREFIX,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/query/FromTest.java,com.activeandroid.test.query.FromTest,testLimit/0,SELECT_PREFIX,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/query/FromTest.java,com.activeandroid.test.query.FromTest,testAs/0,SELECT_PREFIX,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/query/FromTest.java,com.activeandroid.test.query.FromTest,testOffset/0,SELECT_PREFIX,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/query/FromTest.java,com.activeandroid.test.query.FromTest,testWhereNoArguments/0,SELECT_PREFIX,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/query/FromTest.java,com.activeandroid.test.query.FromTest,testWhereWithNoArgumentsAndWithArguments/0,SELECT_PREFIX,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/query/FromTest.java,com.activeandroid.test.query.FromTest,testLimitOffset/0,SELECT_PREFIX,2
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/query/FromTest.java,com.activeandroid.test.query.FromTest,testAll/0,SELECT_PREFIX,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/query/FromTest.java,com.activeandroid.test.query.FromTest,testJoinTypes/0,SELECT_PREFIX,3
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/tests/src/com/activeandroid/test/query/FromTest.java,com.activeandroid.test.query.FromTest,testSingleJoin/0,SELECT_PREFIX,3
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Select.java,com.activeandroid.query.Select$Column,"Column/2[java.lang.String,java.lang.String]",name,3
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/ActiveAndroid/src/com/activeandroid/query/Select.java,com.activeandroid.query.Select$Column,"Column/2[java.lang.String,java.lang.String]",alias,3

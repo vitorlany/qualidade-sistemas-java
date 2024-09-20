@@ -1,0 +1,7 @@
+file,class,method,variable,usage
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/android-tips-tricks/code-files/Logger.java,github.nisrulz.logger.Logger,log/1[java.lang.String],TAG,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/android-tips-tricks/code-files/Logger.java,github.nisrulz.logger.Logger,log/1[java.lang.String],priority,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/android-tips-tricks/code-files/Logger.java,github.nisrulz.logger.Logger,Logger/1[java.lang.String],TAG,3
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/android-tips-tricks/code-files/Logger.java,github.nisrulz.logger.Logger,Logger/1[java.lang.String],priority,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/android-tips-tricks/code-files/Logger.java,github.nisrulz.logger.Logger,withCause/1[java.lang.Exception],TAG,1
+/home/leticiafraga/LAB/qualidade-sistemas-java/./repos/android-tips-tricks/code-files/Logger.java,github.nisrulz.logger.Logger,withCause/1[java.lang.Exception],priority,1
