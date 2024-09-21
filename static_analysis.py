@@ -37,14 +37,11 @@ def process_in_range(popular_repos, start, end):
 def clone_repos(name, url):
     repo_path =  CLONED_REPOS_PATH + "/" + name
 
-    # print(repo_path)
 
     subprocess.run(["git", "clone", url, repo_path])
 
 def delete_clone(name):
     repo_path =  CLONED_REPOS_PATH + "/" + name
-
-    # print(repo_path)
 
     subprocess.run(["rm", "-rf", repo_path])
 

@@ -19,7 +19,7 @@ def run_query(query):
 def get_query(num_repos, cursor):
     return f"""
         {{
-          search(query: "language:Java&start language:Java stars:>0", type: REPOSITORY, first: {num_repos}, after: "{cursor}") {{
+          search(query: "language:Java stars:>0", type: REPOSITORY, first: {num_repos}, after: "{cursor}") {{
             pageInfo {{
               endCursor
               hasNextPage

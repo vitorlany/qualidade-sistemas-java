@@ -19,8 +19,9 @@ def collect_repo_info(repos):
         created_at = repo["createdAt"]
         age = calculate_age(created_at)
         releases = repo["releases"]["totalCount"]
+        stars = repo["stargazerCount"]
 
-        rows.append([repo_name, created_at, age, releases])
+        rows.append([repo_name, created_at, age, releases, stars])
         
     with open('repo_info.csv', 'w', newline='') as file:
         writer = csv.writer(file)
