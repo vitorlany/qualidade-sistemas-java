@@ -2,54 +2,50 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-dataframe = pd.read_csv("final_results.csv")
+def summary(dataframe):
+    cbo_media = dataframe['cbo_media']
+    dit_media = dataframe['dit_media']
+    lcom_media = dataframe['lcom_media']
+    loc_soma = dataframe['loc_soma']
 
-dataframe = dataframe.sort_values(by='age')
+    plt.figure(figsize=(10, 6))
 
-created_at = dataframe["created_at"]
-cbo_media = dataframe['cbo_media']
-dit_media = dataframe['dit_media']
-lcom_media = dataframe['lcom_media']
-loc_soma = dataframe['loc_soma']
+    # cbo_media
+    plt.boxplot(cbo_media)
 
-plt.figure(figsize=(10, 6))
+    plt.title('CBO Média')
 
-# cbo_media
-plt.boxplot(cbo_media)
+    plt.tight_layout()
 
-plt.title('CBO Média')
+    plt.savefig('graphs/cbo_media.png')
+    plt.clf()
 
-plt.tight_layout()
+    # dit_media
+    plt.boxplot(dit_media)
 
-plt.savefig('graphs/cbo_media.png')
-plt.clf()
+    plt.title('DIT Média')
 
-# dit_media
-plt.boxplot(dit_media)
+    plt.tight_layout()
 
-plt.title('DIT Média')
+    plt.savefig('graphs/dit_media.png')
+    plt.clf()
 
-plt.tight_layout()
+    # lcom_media
+    plt.boxplot(lcom_media)
 
-plt.savefig('graphs/dit_media.png')
-plt.clf()
+    plt.title('LCOM Média')
 
-# lcom_media
-plt.boxplot(lcom_media)
+    plt.tight_layout()
 
-plt.title('LCOM Média')
+    plt.savefig('graphs/lcom_media.png')
+    plt.clf()
 
-plt.tight_layout()
+    # loc_soma
+    plt.boxplot(loc_soma)
 
-plt.savefig('graphs/lcom_media.png')
-plt.clf()
+    plt.title('LOC')
 
-# loc_soma
-plt.boxplot(loc_soma)
+    plt.tight_layout()
 
-plt.title('LOC')
-
-plt.tight_layout()
-
-plt.savefig('graphs/loc_soma.png')
-plt.clf()
+    plt.savefig('graphs/loc_soma.png')
+    plt.clf()
