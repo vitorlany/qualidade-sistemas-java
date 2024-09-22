@@ -9,7 +9,7 @@ def get_metrics(popular_repos):
     subprocess.run(["mkdir", CLONED_REPOS_PATH])
     subprocess.run(["mkdir", CK_ANALYSIS_PATH])
     divided_by = 10
-    part = len(popular_repos) // divided_by;
+    part = len(popular_repos) // divided_by
 
     def threaded_process(start, end):
         process_in_range(popular_repos, start, end)

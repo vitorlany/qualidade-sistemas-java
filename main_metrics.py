@@ -62,7 +62,6 @@ def add_data_to_csv(new_data):
     data = get_repos_info()
 
     for i in range(len(data)):
-        print(data[i][0], i)
         data[i].append(new_data[i][0])
         data[i].append(new_data[i][1])
         data[i].append(new_data[i][2])
@@ -79,17 +78,13 @@ def add_data_to_csv(new_data):
         csv_writer.writerow(header)
         csv_writer.writerows(data)
 
-    print("New columns added to the CSV file.")
-
 # Iterar sobre os repositórios coletados e calcular as métricas
 def it_repos():
     data = get_repos_info()
     new_data = []
     for line in data:
         repo_name = line[0]
-        print(repo_name)
         path = file_path + repo_name + class_csv_file
-        print(path)
         data = extract_data(path)
 
         cbo_mediana, cbo_media, cbo_desvio_padrao = generate_metrics(cbo_index, data)
