@@ -14,7 +14,7 @@ Foram selecionados os 1.000 repositórios Java mais populares no GitHub. A sele�
 ### 2.2. Métricas de Processo
 As métricas de processo analisadas incluem:
 - **Popularidade**: número de estrelas no GitHub.
-- **Tamanho**: linhas de código (LOC) e linhas de comentários.
+- **Tamanho**: linhas de código (LOC).
 - **Atividade**: número de releases.
 - **Maturidade**: idade (em anos) do repositório.
 
@@ -25,9 +25,7 @@ Para avaliar a qualidade interna dos repositórios, utilizamos a ferramenta de a
 - **LCOM (Lack of Cohesion of Methods)**: mede a falta de coesão entre métodos de uma classe.
 
 ### 2.4. Coleta de Dados
-As métricas de processo foram coletadas utilizando as APIs REST e GraphQL do GitHub, enquanto as métricas de qualidade foram extraídas por meio da análise estática com a ferramenta CK. O CK gera arquivos .csv que foram sumarizados para realizar as correlações com as características de processo.
-
-Aqui está o relatório em markdown atualizado com base nos dados da planilha enviada. A estrutura segue a lógica das seções de resultados, discussão e conclusão.
+As métricas de processo foram coletadas utilizando a API GraphQL do GitHub, enquanto as métricas de qualidade foram extraídas por meio da análise estática do repositório clonado com a ferramenta CK. O CK gera arquivos .csv que foram sumarizados para realizar as correlações com as características de processo.
 
 # Relatório de Análise de Qualidade de Repositórios Java
 
