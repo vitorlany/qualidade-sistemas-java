@@ -33,13 +33,11 @@ Para avaliar a qualidade interna dos repositórios, utilizamos a ferramenta de a
 
 As métricas de processo foram coletadas utilizando a API GraphQL do GitHub, enquanto as métricas de qualidade foram extraídas por meio da análise estática do repositório clonado com a ferramenta CK. O CK gera arquivos .csv que foram sumarizados para realizar as correlações com as características de processo.
 
-# Relatório de Análise de Qualidade de Repositórios Java
-
 ## 3. Resultados
 
 ### RQ 01: Qual a relação entre a popularidade dos repositórios e suas características de qualidade?
 
-Com base nos dados da planilha, observamos que repositórios mais populares, como o **JavaGuide** (146.018 estrelas) e o **GitHub-Chinese-Top-Charts** (98.958 estrelas), apresentam valores nulos ou muito baixos para as métricas de qualidade (CBO, DIT e LCOM). Esses repositórios são grandes em termos de popularidade, mas alguns não possuem linhas de código disponíveis para análise (LOC = 0). Analisando os gráficos abaixo, vemos que, dos projetos que possuem valores disponíveis, mesmo se tornando mais famosos, não fogem muito da média da qualidade dos outros projetos menos populares.
+Analisando os gráficos abaixo, vemos que, dos projetos que possuem valores disponíveis, mesmo se tornando mais famosos, não fogem muito da média da qualidade dos outros projetos menos populares.
 
 ![](graphs/lcom_media_stars.png)
 ![](graphs/cbo_media_stars.png)
@@ -48,7 +46,7 @@ Com base nos dados da planilha, observamos que repositórios mais populares, com
 
 ### RQ 02: Qual a relação entre a maturidade dos repositórios e suas características de qualidade?
 
-Os repositórios mais antigos, como o **java-design-patterns** (10 anos de idade) e o **mall** (6 anos de idade), apresentam algumas diferenças interessantes. O **java-design-patterns**, apesar de ser mais antigo, tem métricas de qualidade nulas (CBO, DIT e LCOM), o que pode indicar falta de complexidade no código ou falta de dados para análise. O **mall**, por outro lado, apresenta métricas de qualidade significativas, como uma alta variabilidade em **LCOM**, sugerindo que repositórios mais maduros podem enfrentar desafios em manter a coesão do código ao longo do tempo.
+
 
 ![](graphs/lcom_media_maturidade.png)
 ![](graphs/cbo_media_maturidade.png)
@@ -57,7 +55,7 @@ Os repositórios mais antigos, como o **java-design-patterns** (10 anos de idade
 
 ### RQ 03: Qual a relação entre a atividade dos repositórios e suas características de qualidade?
 
-Analisando repositórios com maior número de releases, como o **hello-algo** (8 releases), verificamos que, apesar de ter uma alta atividade, ele não apresenta métricas de qualidade significativas (todos os valores para CBO, DIT e LCOM são nulos). Isso sugere que a atividade por si só pode não estar diretamente correlacionada com uma melhoria na qualidade interna do código, ou que a atividade não resultou em mudanças que impactem as métricas de qualidade analisadas.
+
 
 ![](graphs/lcom_media_releases.png)
 ![](graphs/cbo_media_releases.png)
@@ -67,7 +65,7 @@ Analisando repositórios com maior número de releases, como o **hello-algo** (8
 
 ### RQ 04: Qual a relação entre o tamanho dos repositórios e suas características de qualidade?
 
-Repositórios maiores, como o **mall** (100.903 linhas de código), apresentam um **CBO mediano** de 3.0 e uma **LCOM média** extremamente alta (1.110,8), , porém isso não é regra. Observando o gráfico abaixo que isso é um caso isolado, e que possuímos outros repositórios até maiores, mas com LCOM baixa, sendo assim, LOC não sendo uma métrica precisa para qualidade.
+Repositórios maiores, como o **mall** (100.903 linhas de código), apresentam um **CBO mediano** de 3.0 e uma **LCOM média** extremamente alta (1.110,8), , porém isso não é regra. Observando o gráfico abaixo que isso é um caso isolado, e que possuímos outros repositórios maiores, mas com LCOM baixa, sendo assim, a alteração de linhas de código LOC não afeta perceptivelmente as métricas de qualidade.
 
 ![](graphs/lcom_media_tamanho.png)
 ![](graphs/cbo_media_tamanho.png)
@@ -82,10 +80,8 @@ A expectativa inicial era de que repositórios mais populares e maduros apresent
 
 ### Valores Obtidos
 
-Os resultados obtidos a partir da planilha desafiam algumas das hipóteses. Embora alguns repositórios populares apresentem boas métricas de qualidade, muitos não possuem dados suficientes para avaliação, sendo 190 deles, sugerindo que a popularidade por si só pode não ser indicativa de alta qualidade interna. Projetos mais maduros, como o **mall**, confirmam nossa expectativa de que a maturidade pode aumentar o acoplamento e reduzir a coesão, enquanto a atividade, medida pelo número de releases, não mostrou correlação clara com a qualidade.
-
-Repositórios maiores, como esperado, mostraram-se mais desafiadores em termos de modularidade e coesão, mas a ausência de dados de qualidade em alguns repositórios com zero LOC levantou questões sobre como essas métricas são calculadas e sua disponibilidade em projetos grandes.
+Os resultados obtidos a partir da coleta de dados desafiam as hipóteses. A variação das métricas de processo analisadas não mostrou correlação clara com a qualidade dos projetos.
 
 ## 5. Conclusão
 
-Este laboratório demonstrou que a qualidade dos repositórios open-source Java pode variar consideravelmente, mesmo entre projetos populares e maduros. A popularidade e a atividade não são indicadores claros de boa qualidade interna, e projetos maiores tendem a enfrentar desafios parecidos aos projetos menores. As métricas de qualidade calculadas pela ferramenta CK fornecem insights valiosos, mas a falta de dados em alguns repositórios sugere a necessidade de maior cuidado na seleção e análise desses projetos.
+Este laboratório demonstrou que a qualidade dos repositórios open-source Java pode variar consideravelmente, mesmo entre projetos populares e maduros. A maturidade, popularidade, atividade e tamanho dos repositórios não são indicadores claros de boa qualidade. As métricas de qualidade calculadas pela ferramenta CK forneceram insights valiosos, mas a falta de dados em alguns repositórios sugere a necessidade de maior cuidado na seleção e análise desses projetos.
