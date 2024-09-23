@@ -100,6 +100,3 @@ if __name__ == "__main__":
     
     new_data = it_repos()
     add_data_to_csv(new_data)
-
-    
-    
