@@ -23,7 +23,7 @@ def quality_created_at(dataframe):
     plt.clf()
 
     # dit_media
-    plt.plot(created_at, dit_media, label='DIT Média', color='blue')
+    plt.scatter(created_at, dit_media, label='DIT Média', color='blue')
     plt.title('DIT Média X Maturidade')
     plt.xlabel('created_at')
     plt.ylabel('DIT Média')
@@ -32,7 +32,7 @@ def quality_created_at(dataframe):
     plt.clf()
 
     # lcom_media
-    plt.plot(created_at, lcom_media, label='LCOM Média', color='blue')
+    plt.scatter(created_at, lcom_media, label='LCOM Média', color='blue')
     plt.title('LCOM Média X Maturidade')
     plt.xlabel('created_at')
     plt.ylabel('LCOM Média')
@@ -61,7 +61,7 @@ def quality_loc(dataframe):
     plt.clf()
 
     # dit_media
-    plt.plot(loc_soma, dit_media, label='DIT Média', color='blue')
+    plt.scatter(loc_soma, dit_media, label='DIT Média', color='blue')
     plt.title('DIT Média X tamanho')
     plt.xlabel('loc')
     plt.ylabel('DIT Média')
@@ -70,7 +70,7 @@ def quality_loc(dataframe):
     plt.clf()
 
     # lcom_media
-    plt.plot(loc_soma, lcom_media, label='LCOM Média', color='blue')
+    plt.scatter(loc_soma, lcom_media, label='LCOM Média', color='blue')
     plt.title('LCOM Média X tamanho')
     plt.xlabel('loc')
     plt.ylabel('LCOM Média')
@@ -99,7 +99,7 @@ def quality_releases(dataframe):
     plt.clf()
 
     # dit_media
-    plt.plot(releases, dit_media, label='DIT Média', color='blue')
+    plt.scatter(releases, dit_media, label='DIT Média', color='blue')
     plt.title('DIT Média X atividade')
     plt.xlabel('releases')
     plt.ylabel('DIT Média')
@@ -108,7 +108,7 @@ def quality_releases(dataframe):
     plt.clf()
 
     # lcom_media
-    plt.plot(releases, lcom_media, label='LCOM Média', color='blue')
+    plt.scatter(releases, lcom_media, label='LCOM Média', color='blue')
     plt.title('LCOM Média X atividade')
     plt.xlabel('releases')
     plt.ylabel('LCOM Média')
@@ -137,7 +137,7 @@ def quality_stars(dataframe):
     plt.clf()
 
     # dit_media
-    plt.plot(stars, dit_media, label='DIT Média', color='blue')
+    plt.scatter(stars, dit_media, label='DIT Média', color='blue')
     plt.title('DIT Média X popularidade')
     plt.xlabel('stars')
     plt.ylabel('DIT Média')
@@ -146,7 +146,7 @@ def quality_stars(dataframe):
     plt.clf()
 
     # lcom_media
-    plt.plot(stars, lcom_media, label='LCOM Média', color='blue')
+    plt.scatter(stars, lcom_media, label='LCOM Média', color='blue')
     plt.title('LCOM Média X popularidade')
     plt.xlabel('stars')
     plt.ylabel('LCOM Média')
