@@ -46,7 +46,7 @@ Analisando os gráficos abaixo, vemos que, dos projetos que possuem valores disp
 
 ### RQ 02: Qual a relação entre a maturidade dos repositórios e suas características de qualidade?
 
-
+Analisando os gráficos abaixo, observamos que a maturidade dos repositórios não apresenta uma correlação clara com suas características de qualidade. Projetos mais antigos não necessariamente possuem melhores métricas de qualidade em termos de acoplamento, coesão e profundidade da árvore de herança.
 
 ![](graphs/lcom_media_maturidade.png)
 ![](graphs/cbo_media_maturidade.png)
@@ -55,7 +55,7 @@ Analisando os gráficos abaixo, vemos que, dos projetos que possuem valores disp
 
 ### RQ 03: Qual a relação entre a atividade dos repositórios e suas características de qualidade?
 
-
+Analisando os gráficos abaixo, podemos observar que a atividade dos repositórios, medida pelo número de releases, não apresenta uma correlação clara com suas características de qualidade. Projetos com maior número de releases não necessariamente possuem melhores métricas de qualidade.
 
 ![](graphs/lcom_media_releases.png)
 ![](graphs/cbo_media_releases.png)
