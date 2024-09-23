@@ -11,58 +11,71 @@ def quality_created_at(dataframe):
     plt.figure(figsize=(15, 6))
 
     # cbo_media
-    plt.plot(created_at, cbo_media, label='CBO Média', color='blue')
+    plt.scatter(created_at, cbo_media, label='CBO Média', color='blue', marker='o')
 
-    plt.title('Maturidade')
+    plt.title('CBO Média X Maturidade')
     plt.xlabel('created_at')
     plt.ylabel('CBO Média')
 
+    plt.tight_layout()
+
+    plt.savefig('graphs/cbo_media_maturidade.png')
+    plt.clf()
+
     # dit_media
-    plt.plot(created_at, dit_media, label='DIT Média', color='red')
-    plt.title('DIT Média X maturidade')
+    plt.plot(created_at, dit_media, label='DIT Média', color='blue')
+    plt.title('DIT Média X Maturidade')
     plt.xlabel('created_at')
     plt.ylabel('DIT Média')
+    plt.tight_layout()
+    plt.savefig('graphs/dit_media_maturidade.png')
+    plt.clf()
 
     # lcom_media
-    plt.plot(created_at, lcom_media, label='LCOM Média', color='green')
+    plt.plot(created_at, lcom_media, label='LCOM Média', color='blue')
+    plt.title('LCOM Média X Maturidade')
     plt.xlabel('created_at')
     plt.ylabel('LCOM Média')
-
-
     plt.tight_layout()
-    plt.savefig('graphs/maturidade.png')
+    plt.savefig('graphs/lcom_media_maturidade.png')
     plt.clf()
 
 def quality_loc(dataframe):
+    loc_soma = dataframe["loc_soma"]
     cbo_media = dataframe['cbo_media']
     dit_media = dataframe['dit_media']
     lcom_media = dataframe['lcom_media']
-    loc_soma = dataframe['loc_soma']
 
     plt.figure(figsize=(15, 6))
 
     # cbo_media
-    fig, ax1 = plt.subplots(figsize=(15, 6))
-    ax2 = ax1.twinx()
-    ax3 = ax1.twinx()
+    plt.scatter(loc_soma, cbo_media, label='CBO Média', color='blue', marker='o')
 
-    ax1.plot(loc_soma, cbo_media, label='CBO Média', color='blue')
-    ax2.plot(loc_soma, dit_media, label='DIT Média', color='red')
-    ax3.plot(loc_soma, lcom_media, label='LCOM Média', color='green')
-
-    ax1.set_xlabel('loc')
-    ax1.set_ylabel('CBO Média', color='blue')
-    ax2.set_ylabel('DIT Média', color='red')
-    ax3.set_ylabel('LCOM Média', color='green')
-
-    ax1.tick_params(axis='y', labelcolor='blue')
-    ax2.tick_params(axis='y', labelcolor='red')
-    ax3.tick_params(axis='y', labelcolor='green')
-
-    plt.title('CBO Média, DIT Média, LCOM Média X Tamanho')
+    plt.title('CBO Média X tamanho')
+    plt.xlabel('loc')
+    plt.ylabel('CBO Média')
 
     plt.tight_layout()
-    plt.savefig('graphs/tamanho.png')
+
+    plt.savefig('graphs/cbo_media_tamanho.png')
+    plt.clf()
+
+    # dit_media
+    plt.plot(loc_soma, dit_media, label='DIT Média', color='blue')
+    plt.title('DIT Média X tamanho')
+    plt.xlabel('loc')
+    plt.ylabel('DIT Média')
+    plt.tight_layout()
+    plt.savefig('graphs/dit_media_tamanho.png')
+    plt.clf()
+
+    # lcom_media
+    plt.plot(loc_soma, lcom_media, label='LCOM Média', color='blue')
+    plt.title('LCOM Média X tamanho')
+    plt.xlabel('loc')
+    plt.ylabel('LCOM Média')
+    plt.tight_layout()
+    plt.savefig('graphs/lcom_media_tamanho.png')
     plt.clf()
 
 def quality_releases(dataframe):
@@ -74,7 +87,7 @@ def quality_releases(dataframe):
     plt.figure(figsize=(15, 6))
 
     # cbo_media
-    plt.plot(releases, cbo_media, label='CBO Média', color='blue')
+    plt.scatter(releases, cbo_media, label='CBO Média', color='blue', marker='o')
 
     plt.title('CBO Média X atividade')
     plt.xlabel('releases')
@@ -112,7 +125,7 @@ def quality_stars(dataframe):
     plt.figure(figsize=(15, 6))
 
     # cbo_media
-    plt.plot(stars, cbo_media, label='CBO Média', color='blue')
+    plt.scatter(stars, cbo_media, label='CBO Média', color='blue', marker='o')
 
     plt.title('CBO Média X popularidade')
     plt.xlabel('stars')
