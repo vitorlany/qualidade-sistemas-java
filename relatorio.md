@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-Neste relatório, analisamos a qualidade de repositórios open-source desenvolvidos na linguagem Java, correlacionando diversas métricas de qualidade com características do processo de desenvolvimento desses repositórios. A hipótese principal é que repositórios mais populares, maduros e com maior atividade tendem a apresentar melhores atributos de qualidade interna, como menor acoplamento e maior coesão, devido à atenção mais frequente dos contribuidores e processos mais maduros de revisão e manutenção.
+Neste relatório, analisamos a qualidade de repositórios open-source desenvolvidos na linguagem Java, correlacionando diversas métricas de qualidade com características do processo de desenvolvimento desses repositórios. A hipótese principal é que repositórios mais populares, maduros e com maior atividade tendem a apresentar melhores atributos de qualidade interna, como menor acoplamento e maior coesão, devido à atenção mais frequente dos contribuidores e processos mais maduros de revisão e manutenção. Além disso, é esperado que projetos maiores tenham maior acoplamento e menor coesão do que projetos menores devido à alta complexidade de código.
 
 ## 2. Metodologia
 
@@ -23,7 +23,7 @@ As métricas de processo analisadas incluem:
 
 ### 2.3. Métricas de Qualidade
 
-Para avaliar a qualidade interna dos repositórios, utilizamos a ferramenta de análise estática CK, que gera métricas como:
+Para avaliar a qualidade interna dos repositórios, foram consideradas as seguintes métricas:
 
 - **CBO (Coupling Between Objects)**: mede o grau de acoplamento entre classes.
 - **DIT (Depth Inheritance Tree)**: mede a profundidade da árvore de herança.
@@ -34,6 +34,12 @@ Para avaliar a qualidade interna dos repositórios, utilizamos a ferramenta de a
 As métricas de processo foram coletadas utilizando a API GraphQL do GitHub, enquanto as métricas de qualidade foram extraídas por meio da análise estática do repositório clonado com a ferramenta CK. O CK gera arquivos .csv que foram sumarizados para realizar as correlações com as características de processo.
 
 ## 3. Resultados
+
+Os repositórios coletados apresentaram, em resumo, as seguintes métricas de qualidade:
+![](graphs/cbo_media.png)
+![](graphs/dit_media.png)
+![](graphs/lcom_media.png)
+![](graphs/loc_soma.png)
 
 ### RQ 01: Qual a relação entre a popularidade dos repositórios e suas características de qualidade?
 
@@ -65,7 +71,7 @@ Analisando os gráficos abaixo, podemos observar que a atividade dos repositóri
 
 ### RQ 04: Qual a relação entre o tamanho dos repositórios e suas características de qualidade?
 
-Repositórios maiores, como o **mall** (100.903 linhas de código), apresentam um **CBO mediano** de 3.0 e uma **LCOM média** extremamente alta (1.110,8), , porém isso não é regra. Observando o gráfico abaixo que isso é um caso isolado, e que possuímos outros repositórios maiores, mas com LCOM baixa, sendo assim, a alteração de linhas de código LOC não afeta perceptivelmente as métricas de qualidade.
+Repositórios maiores, como o **mall** (100.903 linhas de código), apresentam um **CBO mediano** de 3.0 e uma **LCOM média** extremamente alta (1.110,8), porém isso não é uma regra. Observando o gráfico abaixo, é possível perceber que isso é um caso isolado, e que possuímos outros repositórios maiores, mas com LCOM baixa. Sendo assim, a alteração de linhas de código LOC não afeta perceptivelmente as métricas de qualidade.
 
 ![](graphs/lcom_media_tamanho.png)
 ![](graphs/cbo_media_tamanho.png)
@@ -76,7 +82,11 @@ Repositórios maiores, como o **mall** (100.903 linhas de código), apresentam u
 
 ### Hipóteses
 
-A expectativa inicial era de que repositórios mais populares e maduros apresentariam melhores atributos de qualidade interna, como menor acoplamento e maior coesão. Também esperávamos que repositórios com maior atividade (número de releases) tivessem métricas de qualidade mais otimizadas devido à manutenção e refatoração contínua. Quanto ao tamanho, a hipótese era de que projetos maiores enfrentariam desafios em manter a modularidade e coesão.
+A expectativa inicial era de que repositórios mais populares e maduros apresentariam melhores atributos de qualidade interna, como menor acoplamento e maior coesão. Isso se deve ao fato de que projetos populares geralmente recebem mais contribuições de desenvolvedores, o que pode levar a uma melhoria contínua do código. Além disso, repositórios mais maduros tendem a ser mais estáveis.
+
+Também era esperado que repositórios com maior atividade (número de releases) tivessem métricas de qualidade mais otimizadas devido à manutenção e refatoração contínua. A constante liberação de novas versões poderia indicar um esforço para melhorar a qualidade do código por meio de refatorações.
+
+Quanto ao tamanho, a hipótese era de que projetos maiores enfrentariam desafios em manter a modularidade e coesão, já que a complexidade aumenta à medida em que o código cresce.
 
 ### Valores Obtidos
 
@@ -84,4 +94,4 @@ Os resultados obtidos a partir da coleta de dados desafiam as hipóteses. A vari
 
 ## 5. Conclusão
 
-Este laboratório demonstrou que a qualidade dos repositórios open-source Java pode variar consideravelmente, mesmo entre projetos populares e maduros. A maturidade, popularidade, atividade e tamanho dos repositórios não são indicadores claros de boa qualidade. As métricas de qualidade calculadas pela ferramenta CK forneceram insights valiosos, mas a falta de dados em alguns repositórios sugere a necessidade de maior cuidado na seleção e análise desses projetos.
+Este laboratório demonstrou que a qualidade dos repositórios open-source Java pode variar consideravelmente, mesmo entre projetos populares e maduros. A maturidade, popularidade, atividade e tamanho dos repositórios não são indicadores claros de boa qualidade. A falta de dados em alguns repositórios sugere a necessidade de maior cuidado na seleção e análise desses projetos.

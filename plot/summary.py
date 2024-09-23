@@ -34,6 +34,7 @@ def summary(dataframe):
     plt.boxplot(lcom_media)
 
     plt.title('LCOM Média')
+    plt.yscale('log')
 
     plt.tight_layout()
 
@@ -44,6 +45,7 @@ def summary(dataframe):
     plt.boxplot(loc_soma)
 
     plt.title('LOC')
+    plt.yscale('log')
 
     plt.tight_layout()
 

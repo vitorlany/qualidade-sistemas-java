@@ -11,7 +11,7 @@ def quality_created_at(dataframe):
     plt.figure(figsize=(15, 6))
 
     # cbo_media
-    plt.scatter(created_at, cbo_media, label='CBO Média', color='blue', marker='o')
+    plt.scatter(created_at, cbo_media, label='CBO Média', color='blue', marker='o', s=15)
 
     plt.title('CBO Média X Maturidade')
     plt.xlabel('created_at')
@@ -23,7 +23,7 @@ def quality_created_at(dataframe):
     plt.clf()
 
     # dit_media
-    plt.scatter(created_at, dit_media, label='DIT Média', color='blue')
+    plt.scatter(created_at, dit_media, label='DIT Média', color='red', marker='o', s=15)
     plt.title('DIT Média X Maturidade')
     plt.xlabel('created_at')
     plt.ylabel('DIT Média')
@@ -32,7 +32,7 @@ def quality_created_at(dataframe):
     plt.clf()
 
     # lcom_media
-    plt.scatter(created_at, lcom_media, label='LCOM Média', color='blue')
+    plt.scatter(created_at, lcom_media, label='LCOM Média', color='green', marker='o', s=15)
     plt.title('LCOM Média X Maturidade')
     plt.xlabel('created_at')
     plt.ylabel('LCOM Média')
@@ -49,7 +49,7 @@ def quality_loc(dataframe):
     plt.figure(figsize=(15, 6))
 
     # cbo_media
-    plt.scatter(loc_soma, cbo_media, label='CBO Média', color='blue', marker='o')
+    plt.scatter(loc_soma, cbo_media, label='CBO Média', color='blue', marker='o', s=15)
 
     plt.title('CBO Média X tamanho')
     plt.xlabel('loc')
@@ -61,7 +61,7 @@ def quality_loc(dataframe):
     plt.clf()
 
     # dit_media
-    plt.scatter(loc_soma, dit_media, label='DIT Média', color='blue')
+    plt.scatter(loc_soma, dit_media, label='DIT Média', color='red', marker='o', s=15)
     plt.title('DIT Média X tamanho')
     plt.xlabel('loc')
     plt.ylabel('DIT Média')
@@ -70,7 +70,7 @@ def quality_loc(dataframe):
     plt.clf()
 
     # lcom_media
-    plt.scatter(loc_soma, lcom_media, label='LCOM Média', color='blue')
+    plt.scatter(loc_soma, lcom_media, label='LCOM Média', color='green', marker='o', s=15)
     plt.title('LCOM Média X tamanho')
     plt.xlabel('loc')
     plt.ylabel('LCOM Média')
@@ -87,7 +87,7 @@ def quality_releases(dataframe):
     plt.figure(figsize=(15, 6))
 
     # cbo_media
-    plt.scatter(releases, cbo_media, label='CBO Média', color='blue', marker='o')
+    plt.scatter(releases, cbo_media, label='CBO Média', color='blue', marker='o', s=15)
 
     plt.title('CBO Média X atividade')
     plt.xlabel('releases')
@@ -99,7 +99,7 @@ def quality_releases(dataframe):
     plt.clf()
 
     # dit_media
-    plt.scatter(releases, dit_media, label='DIT Média', color='blue')
+    plt.scatter(releases, dit_media, label='DIT Média', color='red', marker='o', s=15)
     plt.title('DIT Média X atividade')
     plt.xlabel('releases')
     plt.ylabel('DIT Média')
@@ -108,7 +108,7 @@ def quality_releases(dataframe):
     plt.clf()
 
     # lcom_media
-    plt.scatter(releases, lcom_media, label='LCOM Média', color='blue')
+    plt.scatter(releases, lcom_media, label='LCOM Média', color='green', marker='o', s=15)
     plt.title('LCOM Média X atividade')
     plt.xlabel('releases')
     plt.ylabel('LCOM Média')
@@ -125,7 +125,7 @@ def quality_stars(dataframe):
     plt.figure(figsize=(15, 6))
 
     # cbo_media
-    plt.scatter(stars, cbo_media, label='CBO Média', color='blue', marker='o')
+    plt.scatter(stars, cbo_media, label='CBO Média', color='blue', marker='o', s=15)
 
     plt.title('CBO Média X popularidade')
     plt.xlabel('stars')
@@ -137,7 +137,7 @@ def quality_stars(dataframe):
     plt.clf()
 
     # dit_media
-    plt.scatter(stars, dit_media, label='DIT Média', color='blue')
+    plt.scatter(stars, dit_media, label='DIT Média', color='red', marker='o', s=15)
     plt.title('DIT Média X popularidade')
     plt.xlabel('stars')
     plt.ylabel('DIT Média')
@@ -146,7 +146,7 @@ def quality_stars(dataframe):
     plt.clf()
 
     # lcom_media
-    plt.scatter(stars, lcom_media, label='LCOM Média', color='blue')
+    plt.scatter(stars, lcom_media, label='LCOM Média', color='green', marker='o', s=15)
     plt.title('LCOM Média X popularidade')
     plt.xlabel('stars')
     plt.ylabel('LCOM Média')
